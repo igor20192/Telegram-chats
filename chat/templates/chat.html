@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+    <body>
+        {% block heading %}
+        <h1>Telegram chats</h1>
+        {% endblock heading %}
+        <ul>
+            {% for srings in value %}
+            <li>
+                {{srings}}
+            </li>
+            {% endfor %}
+        </ul>
+    </body>
+
+</html>
